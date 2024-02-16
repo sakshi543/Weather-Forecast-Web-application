@@ -1,0 +1,27 @@
+/* App.css */
+
+/* src/App.css */
+body {
+  background-image: url('../images/clear_sky.jpg');
+  background-size: cover; 
+}
+.heading{
+  margin: auto;
+  width: 50%;
+  background: #fff;
+  border-radius: 20%;
+}
+h1{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 500%;
+}
+p{
+  font-size: 120%;
+}
+h2{
+  font-size: 200%;
+}
+h3{
+  font: 150%;
+}

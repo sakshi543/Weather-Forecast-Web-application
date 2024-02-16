@@ -1,0 +1,57 @@
+/* WeatherForm.css */
+.weather-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+    margin-top: 3%;
+  }
+  
+  .weather-section {
+    width: 45%; /* Adjust width as needed */
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 15px;
+  }
+  
+  /* WeatherDisplay.css */
+  .weather-display {
+    padding: 20px;
+  }
+  .weather-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .weather-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  .weather-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .weather-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  h2{
+    text-align: center;
+  }
