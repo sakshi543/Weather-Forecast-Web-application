@@ -12,7 +12,7 @@ const App = () => {
   };
 
   return (
-    <div className="app-container"> {/* Apply the CSS class from App.css */}
+    <div className="app-container"> 
       <div className='heading'>
         <h1>☼ Weather Forecast ☼</h1>
       </div>
